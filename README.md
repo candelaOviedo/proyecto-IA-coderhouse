@@ -1,4 +1,5 @@
 # ReciApi's
+
 ## 🍽️ **Generador de Recetas con IA (Mistral)**
 
 ## **Objetivo de la Aplicación**
@@ -20,31 +21,49 @@ Este proyecto busca hacer más fácil la creación de recetas personalizadas sin
 
 ## **Cómo Usar la Aplicación**
 
-### Paso 1: Ejecutar la Aplicación**
+### Paso 1: Crear un entorno virtual:
+
+Antes de instalar las dependencias, es recomendable crear un entorno virtual para evitar conflictos con otras instalaciones de Python en tu sistema.
+
+```bash
+python -m venv env
+```
+
+### Paso 2: Activa el entorno virtual
+
+```bash
+env\Scripts\activate
+```
+
+### Paso 3: Instalación de dependencias
+
 Para comenzar, asegúrate de tener **Streamlit** y **requests** instalados. Si aún no los tienes, puedes instalarlos con el siguiente comando en tu terminal:
 
 ```bash
 pip install streamlit requests
 ```
-### Paso 2: Ejecutar la App
+
+### Paso 4: Ejecutar la App
+
 Una vez que hayas guardado el código en un archivo llamado app.py, abre la terminal y navega hasta la carpeta donde se encuentra tu archivo. Luego, ejecuta el siguiente comando para iniciar la aplicación:
 
 ```bash
 streamlit run app.py
 ```
 
-## Paso 3: Ingresar los Ingredientes
+## Paso 5: Ingresar los Ingredientes
+
 En la interfaz de Streamlit, verás un campo de texto donde puedes ingresar una lista de ingredientes. Separa los ingredientes con comas. Por ejemplo, puedes ingresar algo como:
 
 ```
 tomate, pollo, zanahoria, arroz
 ```
 
-## Paso 4: Generar la Receta
+## Paso 6: Generar la Receta
+
 Una vez que hayas ingresado los ingredientes, haz clic en el botón "Generar Receta". La IA comenzará a procesar la información y generará una receta basada en los ingredientes que proporcionaste
 
-## Paso 5: Ver la receta
-
+## Paso 7: Ver la receta
 
 Después de unos momentos, la IA generará la receta y la mostrará en la pantalla. La receta incluirá:
 
@@ -53,10 +72,9 @@ Después de unos momentos, la IA generará la receta y la mostrará en la pantal
 - Los pasos para prepararlo
 - Variaciones posibles para modificar la receta
 
-## Paso 6: Repetir
+## Paso 8: Repetir
 
 Si deseas generar más recetas, solo teenes que ingresar una nueva lista de ingredientes y hacer clic nuevamente en **"Generar Receta"**.
-
 
 ## Posibles errores ❌
 
